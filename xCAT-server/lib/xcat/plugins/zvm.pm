@@ -8596,7 +8596,7 @@ sub eventLog {
     Description : Capture a disk image from a Linux system on z/VM.
     Arguments   : Node
                   OS
-                  Archictecture
+                  Architecture
                   Profile
                   Device information
     Returns     : Nothing

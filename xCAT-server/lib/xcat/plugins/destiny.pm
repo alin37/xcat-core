@@ -463,7 +463,7 @@ sub setdestiny {
         foreach (@nodes) {
             my $ent = $enthash->{$_}->[0]; #$nodetype->getNodeAttribs($_,[qw(arch)]);
             unless ($ent and $ent->{arch}) {
-                $callback->({ error => ["No archictecture defined in nodetype table for $_"], errorcode => [1] });
+                $callback->({ error => ["No architecture defined in nodetype table for $_"], errorcode => [1] });
                 return;
             }
             my $arch = $ent->{arch};
